@@ -32,14 +32,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/vishu007vn/Pallavi_Music",
+    "https://github.com/vishu007vn/pallavi-sarkar",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Pallavisarkaar")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/forevr_07")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Pallavisarkaar")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -84,7 +84,7 @@ PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/d6b8j1.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/dahjy3.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/dahjy3.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/0rm53h.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
